@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hook,STHeiti,82,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,3,11,0,8,66,66,120,1
+Style: Main,STHeiti,66,&H00FFFFFF,&H000000FF,&H00382459,&H88000000,1,0,0,0,100,100,0,0,1,5,3,2,76,76,214,1
+Style: Soft,STHeiti,62,&H00FFFFFF,&H000000FF,&H004B315F,&H77000000,1,0,0,0,100,100,0,0,1,5,2,2,76,76,214,1
+Style: End,STHeiti,78,&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,1,0,0,0,100,100,0,0,3,10,0,5,70,70,130,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 4,0:00:00.08,0:00:01.08,Hook,,0,0,0,,{\fad(70,90)\t(0,160,\fscx110\fscy110)\t(160,360,\fscx100\fscy100)}等一下\N它在变可爱
+Dialogue: 4,0:00:01.12,0:00:02.55,Soft,,0,0,0,,{\fad(80,90)\t(0,170,\fscx106\fscy106)\t(170,360,\fscx100\fscy100)}本来只是桌上的小东西
+Dialogue: 4,0:00:02.60,0:00:04.20,Main,,0,0,0,,{\fad(70,90)\t(0,150,\fscx110\fscy110)\t(150,330,\fscx100\fscy100)}花一戴上
+Dialogue: 4,0:00:04.22,0:00:06.55,Main,,0,0,0,,{\fad(80,100)\t(0,160,\fscx108\fscy108)\t(160,360,\fscx100\fscy100)}像突然有了性格
+Dialogue: 4,0:00:06.60,0:00:09.25,Soft,,0,0,0,,{\fad(90,110)}有点笨\N但很认真
+Dialogue: 4,0:00:09.30,0:00:11.35,Soft,,0,0,0,,{\fad(90,100)}这种小治愈\N谁懂啊
+Dialogue: 4,0:00:11.48,0:00:13.12,End,,0,0,0,,{\fad(80,170)\t(0,170,\fscx108\fscy108)\t(170,360,\fscx100\fscy100)}你会给它取什么名？
